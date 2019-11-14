@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="saim.hassan.arfyppos">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ButtonARActivity"></activity>
+        <activity android:name=".ARlist" />
+
+        <service
+            android:name=".Service.ListenOrder"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".FavouritesActivity" />
+        <activity android:name=".ShowComment" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".ModelAnimation" />
+        <activity android:name=".POSList" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".OrderStatus" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCFfHbfwai9vWW3_sxQY9ryyDOk9dXco8g" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/account_kit_client_token" />
+
+        <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+        <activity android:name=".Cart" />
+        <activity android:name=".ProductDetail" />
+        <activity android:name=".ProductList" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider321564045197750"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>

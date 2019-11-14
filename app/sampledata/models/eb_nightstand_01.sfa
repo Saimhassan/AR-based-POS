@@ -1,0 +1,66 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'eb_nightstand_01',
+        },
+      ],
+      path: 'sampledata/models/eb_nightstand_01.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'eb_nightstand_01',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/eb_nightstand_01.fbx',
+    name: 'eb_nightstand_01',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}

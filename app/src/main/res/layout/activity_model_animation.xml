@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModelAnimation">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+        
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/hp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/hp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="290dp"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        
+        
+        
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/clock"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/clock"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/eb_nightstand_01"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/nightstand"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/cchair"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btncchair"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/chaire"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/chaire"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/hp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/faur2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btnfaur"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/car"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btncar"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/design"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btndesign"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/draw"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btndraw"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/fire"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btnfire"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="173dp">
+
+
+        <LinearLayout
+            android:background="@drawable/balck_gradient"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:fitsSystemWindows="true"
+                    android:src="@drawable/football"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp" />
+
+                <Button
+                    android:id="@+id/btnfootball"
+                    android:layout_marginLeft="290dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_view_style"
+                    android:text="View" />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

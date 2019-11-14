@@ -1,0 +1,67 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Take 001',
+          runtime_name: 'chaire',
+        },
+      ],
+      path: 'sampledata/models/chaire.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'lambert1',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/chaire.fbx',
+    name: 'chaire',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}

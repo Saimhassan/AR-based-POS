@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1046493842867",
+    "firebase_url": "https://arbasedpos-1b6a9.firebaseio.com",
+    "project_id": "arbasedpos-1b6a9",
+    "storage_bucket": "arbasedpos-1b6a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046493842867:android:2268d91cf432c86b",
+        "android_client_info": {
+          "package_name": "saim.hassan.arfyppos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046493842867-242nfdh1a8u5k6p37o83jsbd9vsft3q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "saim.hassan.arfyppos",
+            "certificate_hash": "010790d1d91e94d1267e4a1d482ad003df58d173"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD6pC0l9wCJwBHfhVrOwqvmovt87WL6ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046493842867-29nejudnjseh5r6um7nat0m36q005vta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

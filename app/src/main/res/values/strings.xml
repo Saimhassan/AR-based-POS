@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ARFYPPOS</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">321564045197750</string>
+    <string name="facebook_login_protocol_name">fb321564045197750</string>
+    <string name="account_kit_client_token">ca5e5c8cf522be8577e8246c02448bf5</string>
+</resources>
